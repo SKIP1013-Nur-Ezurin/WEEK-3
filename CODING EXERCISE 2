@@ -1,0 +1,28 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="Nur Ezurin Farisha binti Jusshairi";
+		String uni="Pusat Asasi Pengurusan UUM";
+		
+		double cgpa1 = 3.70;
+		double cgpa2 = 3.75;
+		double cgpa3 = 4.00;
+		double sum;
+		double gpa;
+		
+		String award=" Director List AWward for Session 2020/2021 ";
+		
+		sum = cgpa1 + cgpa2 + cgpa3;
+		gpa = sum/3;
+		
+		System.out.println("My name is "+ name);
+		System.out.println("My previous education is "+ uni);
+		System.out.printf("My GPA for the foundation is :%.2f", gpa);
+		System.out.println();
+		System.out.println("You received " + award);
+	}
+
+}
