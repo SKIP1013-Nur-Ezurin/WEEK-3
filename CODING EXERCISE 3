@@ -1,0 +1,64 @@
+package exercise1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Follow the above example, write a program called RectangleComputation 
+		 * to print the area and perimeter of a rectangle, 
+		 * given its length and width (in doubles). 
+		 * You should use 4 double variables called length, width, area and perimeter.*/
+		
+		double area, perimeter, length, width;
+		
+		length = 10 ;
+		width = 6;
+		
+		area= length * width;
+		perimeter = length + length + width + width;
+		
+		
+		System.out.print("The area of a rectangle is " +area );
+		System.out.println();
+		System.out.println("The perimeter of a rectangle is " +perimeter);
+		
+		
+
+	}
+
+}
+
+package exercise1;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* Follow the above example, write a program called CylinderComputation 
+		 * to print the surface area, base area, and volume of a cylinder, 
+		 * given its radius and height (in doubles). 
+		 * You should use 5 double variables called radius, height, surfaceArea, baseArea and volume. 
+		 * Take note that space (blank) is not allowed in variable names.
+		 */
+		
+		double radius, height, surfaceArea, baseArea, volume;
+		final double PI = 3.14159265;
+		
+		radius = 1.2 ;
+		height = 8 ;
+		volume = PI * radius * radius * height;
+		surfaceArea = (2 * PI * radius * radius) * (2 * PI * radius * height);
+		baseArea = 2 * PI * radius * radius ;
+		
+		System.out.printf("The surface area of a cylinder is : %.2f" , surfaceArea);
+		System.out.println();
+		System.out.printf("The base area of a cylinder is : %.2f  ", baseArea);
+		System.out.println();
+		System.out.printf("The volume of a cylinder is :%.2f", volume);
+		
+
+	}
+
+}
+
